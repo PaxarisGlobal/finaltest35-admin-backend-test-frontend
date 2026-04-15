@@ -1,0 +1,48 @@
+.entity-shell {
+  display: grid;
+  gap: 20px;
+}
+
+.page-toolbar {
+  border-radius: 18px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.form-card,
+.table-card,
+.empty-card {
+  border-radius: 20px;
+}
+
+.entity-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.form-field,
+.full-width {
+  width: 100%;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+:root {
+  --bg: #f7f1e3;
+  --panel: #fffaf1;
+  --ink: #1f1b16;
+  --muted: #6d6458;
+  --brand: #b58a3c;
+  --brand-dark: #7c5d22;
+  --border: rgba(122, 95, 45, 0.18);
+  --shadow: 0 24px 60px rgba(53, 39, 13, 0.12);
+}
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  font-family: Georgia, 'Times New Roman', serif;
+  background:
+    radial-gradient(circle at top, rgba(231, 212, 170, 0.35), transparent 38%),
+    linear-gradient(180deg, #fdf8ef 0%, var(--bg) 100%);
+  color: var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+}
